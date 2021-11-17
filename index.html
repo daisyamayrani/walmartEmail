@@ -10,10 +10,17 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css?family=Mali|Permanent+Marker" rel="stylesheet"/>
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"/>
+    <meta name="color-scheme" content="light dark">
 
     <style type="text/css">
-
-
+    @media (prefers-color-scheme: dark) {
+            .darkmode {
+              background-color: #1e1e1e !important;
+            }
+            .darkmode p {
+              color: #ffffff !important;
+            }
+        }
       /* desktop MORE THAN OR EQUAL TO 960*/
       @media only screen and (min-width: 960px) {
         .container{
@@ -78,8 +85,24 @@
         }
         .refer .refer-text{
           width: 100% !important;
+
+        }
+        .menu-links .menu-links-list  {
+          width: 100% !important;
           margin-left: auto !important;
           margin-right: auto !important;
+        }
+        .menu-links .menu-links-link {
+          width:25% !important;
+
+        }
+        .connected .connected-title {
+          width: 100% !important;
+          height: 70px !important;
+        }
+        .connected .connected-links {
+          width: 80% !important;
+          height: 70px !important;
         }
 
 
@@ -89,25 +112,25 @@
 
   <body style="margin:0px;">
     <!-- Start of htmlemail -->
-    <table align="center" border="0" cellspacing="0" cellpadding="0" style="width:100%; margin-top: 0px; margin-bottom: 0px;">
+    <table align="center" class="darkmode" border="0" cellspacing="0" cellpadding="0" style="width:100%; margin-top: 0px; margin-bottom: 0px;">
       <tr>
         <td>
           <!-- Start of container -->
-          <table class="container" width="600" align="center" cellspacing="0" cellpadding="0" border="0" style="width:100%; background-color: #fffffe !important; margin-right: auto; margin-left: auto;">
+          <table class="container" width="600" align="center" cellspacing="0" cellpadding="0" border="0" style="width:100%; background-color: #ffffff !important; margin-right: auto; margin-left: auto;">
             <!-- Start of HEADER -->
             <tr>
               <td>
                 <table class="two-section header" width="100%" height="100%" align="center" cellspacing="0" cellpadding="0" border="0" style="padding: 15px 10px; background-color: #187bc2 !important; margin-top: 0px; margin-bottom: 0px; width: 100%; height:100%;">
                   <tr>
                     <td style=" margin-right: auto; margin-left: auto; ">
-                      <table align="left">
+                      <table align="left" style="height: 50px;">
                         <tr  >
                           <td>
                             <img src="https://i.postimg.cc/VNX7wfXR/Walmart-Logo.png" alt="walmart logo" style="width: 100%; display: block;">
                           </td>
                         </tr>
                       </table>
-                      <table align="right" >
+                      <table align="right" style="height: 50px;">
                         <tr>
                           <td style="margin-right: auto; margin-left: auto; ">
                             <img src="https://i.postimg.cc/52hPDYQy/yellow-Bar.png" alt="" style="width:100%; display: block;">
@@ -121,7 +144,7 @@
                       <table class="" width="100%" height="100%" align="center" cellspacing="0" cellpadding="0" border="0" style=" background-color: #187bc2 !important; margin-top: 0px; margin-bottom: 0px; width: 100%; height:100%;">
                         <tr>
                           <td>
-                            <h3 style=" width: 80%; color:#fffffe; font-size:25px; margin: 45px 10px 15px 10px;">Your order has been delivered!</h3>
+                            <h3 style=" width: 80%; color:#ffffff; font-size:25px; margin: 45px 10px 15px 10px;">Your order has been delivered!</h3>
                           </td>
                         </tr>
                       </table>
@@ -135,7 +158,7 @@
             <!-- Start of MEMEBER -->
             <tr>
               <td>
-                <table class="two-section member" width="100%" height="100%" align="center" cellspacing="0" cellpadding="0" border="0" style="padding: 15px 10px; background-color: #fffffe !important; margin-top: 0px; margin-bottom: 0px; width: 100%; height:100%;">
+                <table class="two-section member" width="100%" height="100%" align="center" cellspacing="0" cellpadding="0" border="0" style="padding: 15px 10px; background-color: #ffffff !important; margin-top: 0px; margin-bottom: 0px; width: 100%; height:100%;">
                   <tr>
                     <td align="left" style="margin-top: auto; margin-bottom: auto; width: 10%;">
                       <img style="display: inline-block; margin-top: auto; margin-bottom: auto;" src="https://i.postimg.cc/8zJKyB5x/WPlus-Logo.png" alt="walmart plus logo">
@@ -152,7 +175,7 @@
             <!-- Start of MESSAGE-->
             <tr>
               <td>
-                <table class="two-section message" width="100%" height="100%" align="center" cellspacing="0" cellpadding="0" border="0" style="padding: 15px 10px 40px 10px; background-color: #fffffe !important; margin-top: 0px; margin-bottom: 0px; width: 100%; height:100%;">
+                <table class="two-section message" width="100%" height="100%" align="center" cellspacing="0" cellpadding="0" border="0" style="padding: 15px 10px 40px 10px; background-color: #ffffff !important; margin-top: 0px; margin-bottom: 0px; width: 100%; height:100%;">
                   <tr>
                     <td>
                       <table align="left" class="message-cards message-text" style=" margin-right: auto; margin-left: auto; width:50%; padding-left: 20px; font-size:14px;">
@@ -164,7 +187,7 @@
                             <p>We hope to see you again soon,
                             </br>
                             Team Walmart</p>
-                            <span align="center" type="button" name="button" style="display: block; background-color: #187bc2 !important; color: #fffffe; font-size:13px; padding:15px 20px; margin-top: 20px; border-radius: 5%; width: 50%;">
+                            <span align="center" type="button" name="button" style="display: block; background-color: #187bc2 !important; color: #ffffff; font-size:13px; padding:15px 20px; margin-top: 20px; border-radius: 5%; width: 50%;">
                               <strong>Rate your driver</strong>
                             </span>
                           </td>
@@ -187,7 +210,7 @@
             <!-- start of FEEDBACK -->
             <tr>
               <td>
-                <table class="across-banner feedback" width="100%" height="100%" align="center" cellspacing="0" cellpadding="0" border="0" style="padding: 0px 0px; background-color: #fffffe !important; margin-top: 0px; margin-bottom: 0px; ">
+                <table class="across-banner feedback" width="100%" height="100%" align="center" cellspacing="0" cellpadding="0" border="0" style="padding: 0px 0px; background-color: #ffffff !important; margin-top: 0px; margin-bottom: 0px; ">
                   <tr>
                     <td>
                       <img src="https://i.postimg.cc/g2jFGZ0K/feedback-Banner.png" alt="" style="width: 100%; display: block; ">
@@ -209,7 +232,7 @@
                   cellspacing="0"
                   cellpadding="0"
                   border="0"
-                  style="padding: 15px 10px; background-color: #fffffe !important; margin-top: 0px; margin-bottom: 0px; width: 100%; height:100%; border-bottom: 0.1px solid #e6e6e6;">
+                  style="padding: 15px 10px; background-color: #ffffff !important; margin-top: 0px; margin-bottom: 0px; width: 100%; height:100%; border-bottom: 0.1px solid #e6e6e6;">
                   <tr>
                     <td>
                       <table align="left" width="50%" class="shop-time card" style=" margin-right: auto; margin-left: auto; font-size: 10px; padding-left:20px;">
@@ -244,7 +267,7 @@
             <!-- start of ACROSS-ROW ORANGES-->
             <tr>
               <td>
-                <table class="across-banner oranges" width="100%" height="100%" align="center" cellspacing="0" cellpadding="0" border="0" style="padding: 0px 0px; background-color: #fffffe !important; margin-top: 0px; margin-bottom: 0px; ">
+                <table class="across-banner oranges" width="100%" height="100%" align="center" cellspacing="0" cellpadding="0" border="0" style="padding: 0px 0px; background-color: #ffffff !important; margin-top: 0px; margin-bottom: 0px; ">
                   <tr>
                     <td valign="top" align="right ">
                       <img src="https://i.postimg.cc/4xqMZ2qJ/oranges.png" alt="" style="width: auto;  ">
@@ -260,7 +283,7 @@
             <!-- Start of TWO-SECTION-ROW COLORS -->
             <tr>
               <td>
-                <table class="two-section colors" width="100%" height="100%" align="center" cellspacing="0" cellpadding="0" border="0" style="padding: 15px 10px; background-color: #fffffe !important; margin-top: 0px; margin-bottom: 0px; width: 100%; height:100%;">
+                <table class="two-section colors" width="100%" height="100%" align="center" cellspacing="0" cellpadding="0" border="0" style="padding: 15px 10px; background-color: #ffffff !important; margin-top: 0px; margin-bottom: 0px; width: 100%; height:100%;">
                   <tr>
                     <td align="left">
                       <div style=" margin-right: auto; margin-left: auto; background-color: #187bc2 !important; width: 15px; height: 43px;"></div>
@@ -288,7 +311,7 @@
                   cellspacing="0"
                   cellpadding="0"
                   border="0"
-                  style="padding: 10px 10px; background-color: #fffffe !important; margin-top: 0px; margin-bottom: 0px; padding-left: 50px; padding-right: 50px; width: 100%; height:100%; ">
+                  style="padding: 10px 10px; background-color: #ffffff !important; margin-top: 0px; margin-bottom: 0px; padding-left: 50px; padding-right: 50px; width: 100%; height:100%; ">
                   <tr>
                     <td>
                       <table style=" border-bottom: 0.1px solid #e6e6e6; width: 100%; padding-bottom: 15px; font-family: sans-serif;">
@@ -323,7 +346,7 @@
                   cellspacing="0"
                   cellpadding="0"
                   border="0"
-                  style="padding: 10px 10px; background-color: #fffffe !important; margin-top: 0px; margin-bottom: 0px; padding-left: 50px; padding-right: 50px; width: 100%; height:100%; ">
+                  style="padding: 10px 10px; background-color: #ffffff !important; margin-top: 0px; margin-bottom: 0px; padding-left: 50px; padding-right: 50px; width: 100%; height:100%; ">
                   <tr>
                     <td>
                       <table style=" border-bottom: 0.1px solid #e6e6e6; width: 100%; padding-bottom: 15px; font-family: sans-serif;">
@@ -359,7 +382,7 @@
                   cellspacing="0"
                   cellpadding="0"
                   border="0"
-                  style="padding: 10px 10px; background-color: #fffffe !important; margin-top: 0px; margin-bottom: 0px; padding-left: 50px; padding-right: 50px; padding-bottom: 0px; width: 100%; height:100%; ">
+                  style="padding: 10px 10px; background-color: #ffffff !important; margin-top: 0px; margin-bottom: 0px; padding-left: 50px; padding-right: 50px; padding-bottom: 0px; width: 100%; height:100%; ">
                   <tr>
                     <td>
                       <table style=" border-bottom: 0.1px solid #e6e6e6; width: 100%; padding-bottom: 15px; font-family: sans-serif;">
@@ -398,7 +421,7 @@
                   cellspacing="0"
                   cellpadding="0"
                   border="0"
-                  style="padding: 10px 10px; background-color: #fffffe !important; margin-top: 0px; margin-bottom: 0px; padding-left: 50px; padding-right: 50px; padding-bottom: 0px;  width: 100%; height:100%; ">
+                  style="padding: 10px 10px; background-color: #ffffff !important; margin-top: 0px; margin-bottom: 0px; padding-left: 50px; padding-right: 50px; padding-bottom: 0px;  width: 100%; height:100%; ">
                   <tr>
                     <td>
                       <table style=" border-bottom: 0.1px solid #e6e6e6; width: 100%; padding-bottom: 15px; padding-top: 0px; font-family: sans-serif;">
@@ -422,7 +445,7 @@
             <!-- Start of TWO-SECTION-ROW COLORS -->
             <tr>
               <td>
-                <table class="two-section colors" width="100%" height="100%" align="center" cellspacing="0" cellpadding="0" border="0" style="padding: 15px 10px; background-color: #fffffe !important; margin-top: 0px; margin-bottom: 0px; width: 100%; height:100%;">
+                <table class="two-section colors" width="100%" height="100%" align="center" cellspacing="0" cellpadding="0" border="0" style="padding: 15px 10px; background-color: #ffffff !important; margin-top: 0px; margin-bottom: 0px; width: 100%; height:100%;">
                   <tr>
                     <td align="left">
                       <div style=" margin-right: auto; margin-left: auto; background-color: #68b3df !important; width: 15px; height: 43px;"></div>
@@ -449,7 +472,7 @@
                   cellspacing="0"
                   cellpadding="0"
                   border="0"
-                  style="padding: 10px 10px; background-color: #fffffe !important; margin-top: 0px; margin-bottom: 0px; padding-left: 50px; padding-right: 50px; width: 100%; height:100%; ">
+                  style="padding: 10px 10px; background-color: #ffffff !important; margin-top: 0px; margin-bottom: 0px; padding-left: 50px; padding-right: 50px; width: 100%; height:100%; ">
                   <tr>
                     <td>
                       <table style=" border-bottom: 0.1px solid #e6e6e6; width: 100%; padding-bottom: 15px; font-family: sans-serif;">
@@ -484,7 +507,7 @@
                   cellspacing="0"
                   cellpadding="0"
                   border="0"
-                  style="padding: 10px 10px; background-color: #fffffe !important; margin-top: 0px; margin-bottom: 0px; padding-left: 50px; padding-right: 50px; width: 100%; height:100%; ">
+                  style="padding: 10px 10px; background-color: #ffffff !important; margin-top: 0px; margin-bottom: 0px; padding-left: 50px; padding-right: 50px; width: 100%; height:100%; ">
                   <tr>
 
                     <td>
@@ -523,7 +546,7 @@
                   cellspacing="0"
                   cellpadding="0"
                   border="0"
-                  style="padding: 10px 10px; background-color: #fffffe !important; margin-top: 0px; margin-bottom: 0px; padding-left: 50px; padding-right: 50px; padding-bottom: 0px; width: 100%; height:100%; ">
+                  style="padding: 10px 10px; background-color: #ffffff !important; margin-top: 0px; margin-bottom: 0px; padding-left: 50px; padding-right: 50px; padding-bottom: 0px; width: 100%; height:100%; ">
                   <tr>
                     <td>
                       <table style=" border-bottom: 0.1px solid #e6e6e6; width: 100%; padding-bottom: 15px; font-family: sans-serif;">
@@ -564,7 +587,7 @@
                   cellspacing="0"
                   cellpadding="0"
                   border="0"
-                  style=" background-color: #fffffe !important; margin-top: 0px; margin-bottom: 0px; padding-left: 50px; padding-right: 50px; padding-bottom: 0px;  width: 100%; height:100%; ">
+                  style=" background-color: #ffffff !important; margin-top: 0px; margin-bottom: 0px; padding-left: 50px; padding-right: 50px; padding-bottom: 0px;  width: 100%; height:100%; ">
                   <tr>
                     <td>
                       <table style=" width: 90%; padding-bottom: 0px; padding-top: 0px; font-family: sans-serif;">
@@ -594,7 +617,7 @@
                   cellspacing="0"
                   cellpadding="0"
                   border="0"
-                  style="padding: 10px 10px; background-color: #fffffe !important; margin-top: 0px; margin-bottom: 0px; padding-left: 50px; padding-right: 50px; padding-bottom: 0px; width: 100%; height:100%; ">
+                  style="padding: 10px 10px; background-color: #ffffff !important; margin-top: 0px; margin-bottom: 0px; padding-left: 50px; padding-right: 50px; padding-bottom: 0px; width: 100%; height:100%; ">
                   <tr>
                     <td>
                       <table valign="center" style=" border-bottom: 0.1px solid #e6e6e6;  padding-bottom: 15px 15px 0px 15px; font-family: sans-serif; width: 100%; ">
@@ -645,7 +668,7 @@
                   cellspacing="0"
                   cellpadding="0"
                   border="0"
-                  style="padding: 10px 10px; background-color: #fffffe !important; margin-top: 0px; margin-bottom: 0px; padding-left: 50px; padding-right: 50px; padding-bottom: 0px; width: 100%; height:100%; ">
+                  style="padding: 10px 10px; background-color: #ffffff !important; margin-top: 0px; margin-bottom: 0px; padding-left: 50px; padding-right: 50px; padding-bottom: 0px; width: 100%; height:100%; ">
                   <tr>
                     <td>
                       <table valign="center" style=" border-bottom: 0.1px solid #e6e6e6;  padding-bottom: 15px 15px 0px 15px; font-family: sans-serif; width: 100%; ">
@@ -696,7 +719,7 @@
                   cellspacing="0"
                   cellpadding="0"
                   border="0"
-                  style="padding: 10px 10px; background-color: #fffffe !important; margin-top: 0px; margin-bottom: 0px; padding-left: 50px; padding-right: 50px; padding-bottom: 0px; width: 100%; height:100%; ">
+                  style="padding: 10px 10px; background-color: #ffffff !important; margin-top: 0px; margin-bottom: 0px; padding-left: 50px; padding-right: 50px; padding-bottom: 0px; width: 100%; height:100%; ">
                   <tr>
                     <td>
                       <table valign="center" style=" border-bottom: 0.1px solid #e6e6e6;  padding-bottom: 15px 15px 0px 15px; font-family: sans-serif; width: 100%; ">
@@ -747,7 +770,7 @@
                   cellspacing="0"
                   cellpadding="0"
                   border="0"
-                  style="padding: 10px 10px; background-color: #fffffe !important; margin-top: 0px; margin-bottom: 0px; padding-left: 50px; padding-right: 50px; padding-bottom: 0px; width: 100%; height:100%; ">
+                  style="padding: 10px 10px; background-color: #ffffff !important; margin-top: 0px; margin-bottom: 0px; padding-left: 50px; padding-right: 50px; padding-bottom: 0px; width: 100%; height:100%; ">
                   <tr>
                     <td>
                       <table valign="center" style=" border-bottom: 0.1px solid #e6e6e6;  padding-bottom: 15px 15px 0px 15px; font-family: sans-serif; width: 100%; ">
@@ -798,7 +821,7 @@
                   cellspacing="0"
                   cellpadding="0"
                   border="0"
-                  style="padding: 10px 10px; background-color: #fffffe !important; margin-top: 0px; margin-bottom: 0px; padding-left: 50px; padding-right: 50px; padding-bottom: 0px; width: 100%; height:100%; ">
+                  style="padding: 10px 10px; background-color: #ffffff !important; margin-top: 0px; margin-bottom: 0px; padding-left: 50px; padding-right: 50px; padding-bottom: 0px; width: 100%; height:100%; ">
                   <tr>
                     <td>
                       <table valign="center" style=" border-bottom: 0.1px solid #e6e6e6;  padding-bottom: 15px 15px 0px 15px; font-family: sans-serif; width: 100%; ">
@@ -849,7 +872,7 @@
                   cellspacing="0"
                   cellpadding="0"
                   border="0"
-                  style="padding: 10px 10px; background-color: #fffffe !important; margin-top: 0px; margin-bottom: 0px; padding-left: 50px; padding-right: 50px; padding-bottom: 0px; width: 100%; height:100%; ">
+                  style="padding: 10px 10px; background-color: #ffffff !important; margin-top: 0px; margin-bottom: 0px; padding-left: 50px; padding-right: 50px; padding-bottom: 0px; width: 100%; height:100%; ">
                   <tr>
                     <td>
                       <table valign="center" style=" border-bottom: 0.1px solid #e6e6e6;  padding-bottom: 15px 15px 0px 15px; font-family: sans-serif; width: 100%; ">
@@ -900,7 +923,7 @@
                   cellspacing="0"
                   cellpadding="0"
                   border="0"
-                  style="padding: 10px 10px; background-color: #fffffe !important; margin-top: 0px; margin-bottom: 0px; padding-left: 50px; padding-right: 50px; padding-bottom: 0px; width: 100%; height:100%; ">
+                  style="padding: 10px 10px; background-color: #ffffff !important; margin-top: 0px; margin-bottom: 0px; padding-left: 50px; padding-right: 50px; padding-bottom: 0px; width: 100%; height:100%; ">
                   <tr>
                     <td>
                       <table valign="center" style=" border-bottom: 0.1px solid #e6e6e6;  padding-bottom: 15px 15px 0px 15px; font-family: sans-serif; width: 100%; ">
@@ -951,7 +974,7 @@
                   cellspacing="0"
                   cellpadding="0"
                   border="0"
-                  style="padding: 10px 10px; background-color: #fffffe !important; margin-top: 0px; margin-bottom: 0px; padding-left: 50px; padding-right: 50px; padding-bottom: 0px; width: 100%; height:100%; ">
+                  style="padding: 10px 10px; background-color: #ffffff !important; margin-top: 0px; margin-bottom: 0px; padding-left: 50px; padding-right: 50px; padding-bottom: 0px; width: 100%; height:100%; ">
                   <tr>
                     <td>
                       <table valign="center" style=" border-bottom: 0.1px solid #e6e6e6;  padding-bottom: 15px 15px 0px 15px; font-family: sans-serif; width: 100%; ">
@@ -1004,7 +1027,7 @@
                   cellspacing="0"
                   cellpadding="0"
                   border="0"
-                  style=" background-color: #fffffe !important; margin-top: 0px; margin-bottom: 0px; padding-left: 50px; padding-right: 50px; padding-bottom: 0px;  width: 100%; height:100%;  ">
+                  style=" background-color: #ffffff !important; margin-top: 0px; margin-bottom: 0px; padding-left: 50px; padding-right: 50px; padding-bottom: 0px;  width: 100%; height:100%;  ">
                   <tr>
                     <td>
                       <table style=" width: 100%; padding-bottom: 0px; padding-top: 0px; font-family: sans-serif; margin-bottom: 0px; border-bottom: 0.1px solid #e6e6e6;">
@@ -1034,7 +1057,7 @@
                   cellspacing="0"
                   cellpadding="0"
                   border="0"
-                  style=" background-color: #fffffe !important; margin-top: 0px; margin-bottom: 0px; padding-left: 50px; padding-right: 50px; padding-bottom: 0px;  width: 100%; height:100%;  ">
+                  style=" background-color: #ffffff !important; margin-top: 0px; margin-bottom: 0px; padding-left: 50px; padding-right: 50px; padding-bottom: 0px;  width: 100%; height:100%;  ">
                   <tr>
                     <td>
                       <table style=" width: 100%; padding-bottom: 0px; padding-top: 0px; font-family: sans-serif; margin-bottom: 0px; ">
@@ -1070,7 +1093,7 @@
                   cellspacing="0"
                   cellpadding="0"
                   border="0"
-                  style=" background-color: #fffffe !important; margin-top: 0px; margin-bottom: 0px; padding-left: 50px; padding-right: 50px; padding-bottom: 0px;  width: 100%; height:100%;  ">
+                  style=" background-color: #ffffff !important; margin-top: 0px; margin-bottom: 0px; padding-left: 50px; padding-right: 50px; padding-bottom: 0px;  width: 100%; height:100%;  ">
                   <tr>
                     <td>
                       <table style=" width: 100%; padding-bottom: 0px; padding-top: 0px; font-family: sans-serif; margin-bottom: 0px; ">
@@ -1104,7 +1127,7 @@
                   cellspacing="0"
                   cellpadding="0"
                   border="0"
-                  style=" background-color: #fffffe !important; margin-top: 0px; margin-bottom: 0px; padding-left: 50px; padding-right: 50px; padding-bottom: 0px;  width: 100%; height:100%;  ">
+                  style=" background-color: #ffffff !important; margin-top: 0px; margin-bottom: 0px; padding-left: 50px; padding-right: 50px; padding-bottom: 0px;  width: 100%; height:100%;  ">
                   <tr>
                     <td>
                       <table style=" width: 100%; padding-bottom: 0px; padding-top: 0px; font-family: sans-serif; margin-bottom: 0px; ">
@@ -1138,7 +1161,7 @@
                   cellspacing="0"
                   cellpadding="0"
                   border="0"
-                  style=" background-color: #fffffe !important; margin-top: 0px; margin-bottom: 0px; padding-left: 50px; padding-right: 50px; padding-bottom: 0px;  width: 100%; height:100%;  ">
+                  style=" background-color: #ffffff !important; margin-top: 0px; margin-bottom: 0px; padding-left: 50px; padding-right: 50px; padding-bottom: 0px;  width: 100%; height:100%;  ">
                   <tr>
                     <td>
                       <table style=" width: 100%; padding-bottom: 0px; padding-top: 0px; font-family: sans-serif; margin-bottom: 15px; margin-top: 15px; ">
@@ -1176,7 +1199,7 @@
                   cellspacing="0"
                   cellpadding="0"
                   border="0"
-                  style=" background-color: #fffffe !important; margin-top: 0px; margin-bottom: 0px; padding-left: 50px; padding-right: 50px; padding-bottom: 0px;  width: 100%; height:100%;  ">
+                  style=" background-color: #ffffff !important; margin-top: 0px; margin-bottom: 0px; padding-left: 50px; padding-right: 50px; padding-bottom: 0px;  width: 100%; height:100%;  ">
                   <tr>
                     <td>
                       <table style=" width: 100%; padding-bottom: 0px; padding-top: 0px; font-family: sans-serif; margin-bottom: 0px;">
@@ -1206,7 +1229,7 @@
                   cellspacing="0"
                   cellpadding="0"
                   border="0"
-                  style=" background-color: #fffffe !important; margin-top: 0px; margin-bottom: 0px; padding-left: 50px; padding-right: 50px; padding-bottom: 0px;  width: 100%; height:100%;  ">
+                  style=" background-color: #ffffff !important; margin-top: 0px; margin-bottom: 0px; padding-left: 50px; padding-right: 50px; padding-bottom: 0px;  width: 100%; height:100%;  ">
                   <tr>
                     <td>
                       <table style=" width: 100%; padding-bottom: 15px; padding-top: 0px; font-family: sans-serif; margin-bottom: 0px; margin-top: 0px; width: 100%; height:100%; border-bottom: 0.1px solid #e6e6e6;  ">
@@ -1240,7 +1263,7 @@
                   cellspacing="0"
                   cellpadding="0"
                   border="0"
-                  style=" background-color: #fffffe !important; margin-top: 0px; margin-bottom: 0px; padding-left: 50px; padding-right: 50px; padding-bottom: 0px;  width: 100%; height:100%;  ">
+                  style=" background-color: #ffffff !important; margin-top: 0px; margin-bottom: 0px; padding-left: 50px; padding-right: 50px; padding-bottom: 0px;  width: 100%; height:100%;  ">
                   <tr>
                     <td>
                       <table style=" width: 100%; padding-bottom: 7px; padding-top: 7px; font-family: sans-serif; margin-bottom: 0px; margin-top: 0px; width: 100%; height:100%; border-bottom: 0.1px solid #e6e6e6; ">
@@ -1274,7 +1297,7 @@
                   cellspacing="0"
                   cellpadding="0"
                   border="0"
-                  style="padding: 10px 10px; background-color: #fffffe !important; margin-top: 0px; margin-bottom: 0px; padding-left: 50px; padding-right: 50px; padding-bottom: 0px;  width: 100%; height:100%; ">
+                  style="padding: 10px 10px; background-color: #ffffff !important; margin-top: 0px; margin-bottom: 0px; padding-left: 50px; padding-right: 50px; padding-bottom: 0px;  width: 100%; height:100%; ">
                   <tr>
                     <td>
                       <table style="  width: 100%; padding-bottom: 15px; padding-top: 10px; font-family: sans-serif;">
@@ -1307,18 +1330,19 @@
                       <table align="left" class="refer-image" width="50%" height="100%" cellspacing="0" cellpadding="0" border="0" style="margin-right: auto; margin-left: auto; ">
                         <tr>
                           <td>
-                            <img src="https://i.postimg.cc/HsWFtybC/onPhone.png" alt="delivery image" style="width: 100%; display: block; margin-right: auto; margin-left: auto;">
+                            <img src="https://i.postimg.cc/HsWFtybC/onPhone.png" alt="delivery image" style="width: 90%; display: block; margin-right: auto; margin-left: auto;">
                           </td>
                         </tr>
                       </table>
-                      <table  align="center" class="refer-text" width="50%" height="100%" cellspacing="0" cellpadding="0" border="0"  style=" margin-right: auto; margin-left: auto; width:50%; font-size:14px; text-align: center;  align-items: center; margin-top: 20px; margin-bottom: auto;">
+                      <table  align="center" class="refer-text" width="50%" height="100%" cellspacing="0" cellpadding="0" border="0"  style=" margin-right: auto; margin-left: auto;  width:50%; font-size:14px; text-align: center;  align-items: center; ">
                         <tr>
-                          <td style="">
-                            <p style="color: #fffffe; font-size: 28px;">Spread the News</p>
-                            <p style="color: #fffffe; font-size: 14px;">Refer a friend, and you'll both get $10 off.</p>
-                            <span align="center" type="button" name="button" style="display: block; background-color: #fffffe !important; color: #187bc2; font-size:14px; padding:15px 20px; margin-top: 20px; border-radius: 5%; width: 50%;  margin-right: auto; margin-left: auto;">
-                              <strong>Refer Friends</strong>
+                          <td style="margin-top: auto; margin-bottom: auto;">
+                            <p style="color: #ffffff; font-size: 28px;">Spread the News</p>
+                            <p style="color: #ffffff; font-size: 14px;">Refer a friend, and you'll both get $10 off.</p>
+                            <span align="center" type="button" name="button" style="display: block; background-color: #fffffe !important; color: #187bc2; font-size:14px; padding:10px 20px; margin-top: 20px; margin-bottom: 20px; border-radius: 5%; width: 50%;  margin-right: auto; margin-left: auto;">
+                              <strong style="color: #187bc2;">Refer Friends</strong>
                             </span>
+
                           </td>
                         </tr>
                       </table>
@@ -1333,7 +1357,7 @@
             <!-- start of GET APP-->
             <tr>
               <td>
-                <table class="across-banner getApp" width="100%" height="100%" align="center" cellspacing="0" cellpadding="0" border="0" style="padding: 0px 0px; background-color: #fffffe !important; margin-top: 0px; margin-bottom: 0px; ">
+                <table class="across-banner getApp" width="100%" height="100%" align="center" cellspacing="0" cellpadding="0" border="0" style="padding: 0px 0px; background-color: #ffffff !important; margin-top: 0px; margin-bottom: 0px; ">
                   <tr>
                     <td>
                       <img src="https://i.postimg.cc/jq4GNXwX/getApp.png" alt="" style="width: 100%; display: block; ">
@@ -1349,22 +1373,22 @@
             <!-- start of FOUR-SECTION-ROW MENU-LINKS-->
             <tr>
               <td>
-                <table class="four-section  menu-links" width="100%" height="100%" align="center" cellspacing="0" cellpadding="0" border="0" style="padding: 20px 0px; background-color: #005B8F !important; margin-top: 0px; margin-bottom: 0px; border-bottom: 1px solid #fffffe;">
+                <table class="four-section  menu-links" width="100%" height="100%" align="center" cellspacing="0" cellpadding="0" border="0" style="padding: 20px 0px; background-color: #005B8F !important; margin-top: 0px; margin-bottom: 0px; border-bottom: 1px solid #ffffff;">
                   <tr >
                     <td>
-                      <table style="width: 70%; color: #ffcc57; font-size: 13px; padding: 10px 5px; ">
+                      <table class="menu-links-list" style="width: 70%; color: #ffcc57; font-size: 13px; padding: 10px 5px; ">
                         <tr>
-                          <td align="center">
-                            <a style="width: 20%; height:70%; ">My Account</a>
+                          <td class="menu-links-link" align="center">
+                            <a style="width: 20%; height:70%; color: #ffcc57;">My Account</a>
                           </td>
-                          <td align="center">
-                            <a style="width: 20%; height:70%; ">Go Shopping</a>
+                          <td class="menu-links-link" align="center">
+                            <a style="width: 20%; height:70%; color: #ffcc57;">Go Shopping</a>
                           </td>
-                          <td align="center">
-                            <a style="width: 20%; height:70%; ">Help</a>
+                          <td class="menu-links-link" align="center">
+                            <a style="width: 20%; height:70%; color: #ffcc57;">Help</a>
                           </td>
-                          <td align="center">
-                            <a style="width: 20%; height:70%; ">Contact Us</a>
+                          <td class="menu-links-link" align="center">
+                            <a style="width: 20%; height:70%; color: #ffcc57;">Contact Us</a>
                           </td>
                         </tr>
                       </table>
@@ -1386,38 +1410,36 @@
                   cellspacing="0"
                   cellpadding="0"
                   border="0"
-                  style="padding: 0px 0px; background-color: #005B8F !important; color: #ffcc57;margin-top: 0px; margin-bottom: 0px; border-bottom: 1px solid #fffffe;">
-                  <tr >
+                  style="width: 100%; height: auto; padding: 0px 0px; background-color: #005B8F !important; color: #ffcc57; margin-top: 0px; margin-bottom: 0px; border-bottom: 1px solid #ffffff;">
+                  <tr>
                     <td>
-                      <table style="width: 100%;  font-size: 21px; padding: 10px 5px; ">
+                      <table align="left" class="connected-title" style="width: 50%; height: 100px; font-size: 21px; padding: 10px 0px; ">
                         <tr>
-                          <td align="center">
-                            <p style="width: 90%; height:70%; ">Stay Connected</p>
+                          <td align="center" style="width: 100%; height:70%; ">
+                            <p style="width: 90%; ">Stay Connected</p>
                           </td>
 
                         </tr>
                       </table>
-                    </td>
-                    <td>
-                      <table style="width: 100%; color: #ffcc57; font-size: 13px; padding: 10px 5px; ">
+                      <table  align="center" class="connected-links" style="width: 50%; height: 100px; color: #ffcc57; font-size: 13px; padding: 10px 0px; margin-top:auto; margin-bottom: auto;">
                         <tr>
-                          <td align="center">
-                            <img src="https://i.postimg.cc/L60QB0Hz/mobile-App.png" style="width: 70%; height:70%; ">
+                          <td align="center" style="">
+                            <img src="https://i.postimg.cc/L60QB0Hz/mobile-App.png" style="width: 100%; ">
                           </td>
                           <td align="center">
-                            <img src="https://i.postimg.cc/xdNwzVMJ/facebook.png" style="width: 70%; height:70%; ">
+                            <img src="https://i.postimg.cc/xdNwzVMJ/facebook.png" style="width: 100%; ">
                           </td>
                           <td align="center">
-                            <img src="https://i.postimg.cc/nrFSTyj1/instagram.png" style="width: 70%; height:70%; ">
+                            <img src="https://i.postimg.cc/nrFSTyj1/instagram.png" style="width: 100%; ">
                           </td>
                           <td align="center">
-                            <img src="https://i.postimg.cc/PJy9jXsc/pinterest.png" style="width:70%; height:70%; ">
+                            <img src="https://i.postimg.cc/PJy9jXsc/pinterest.png" style="width:100%; ">
                           </td>
                           <td align="center">
-                            <img src="https://i.postimg.cc/DyzYGKKv/twitter.png" style="width: 70%; height:70%; ">
+                            <img src="https://i.postimg.cc/DyzYGKKv/twitter.png" style="width: 100%; ">
                           </td>
                           <td align="center">
-                            <img src="https://i.postimg.cc/9XbnzQKg/youtube.png" style="width:70%; height:70%; ">
+                            <img src="https://i.postimg.cc/9XbnzQKg/youtube.png" style="width:100%;  ">
                           </td>
                         </tr>
                       </table>
@@ -1439,7 +1461,7 @@
                   cellspacing="0"
                   cellpadding="0"
                   border="0"
-                  style="padding: 0px 0px; background-color: #005B8F !important; color: #fffffe; margin-top: 0px; margin-bottom: 0px; padding: 0px 20px 10px 20px; font-size: 11px;">
+                  style="padding: 0px 0px; background-color: #005B8F !important; color: #ffffff; margin-top: 0px; margin-bottom: 0px; padding: 0px 20px 10px 20px; font-size: 11px;">
                   <tr>
                     <td align="left">
                       <p style="margin-bottom: 0px;">Please note that product prices and availability are limited-time and are subject to change.</p>
